@@ -9,3 +9,4 @@
 <?php
 sleep(5);
 echo "<html><head><script>document.location.href='antiddos.php'</script></head></html>";
+?>
