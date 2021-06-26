@@ -20,21 +20,10 @@
 <script>
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
- var logonav = document.getElementById("logonav")
- logonav.width = 50
- logonav.heigth = 50
- var playnav = document.getElementById("playnav")
- playnav.width = 100
- playnav.heigth = 50
- var dnav = document.getElementById("discordnav")
- dnav.width = 100
- dnav.heigth = 50
- var shopnav = document.getElementById("shopnav")
- shopnav.width = 100
- shopnav.heigth = 50
+ document.location.href="/mobile/"
 }else{
   // false for not mobile device
-  document.write("not mobile device");
+  document.location.href="#";
 }
 </script>
 </head>
